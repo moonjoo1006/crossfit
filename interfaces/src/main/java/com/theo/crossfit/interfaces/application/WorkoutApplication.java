@@ -2,7 +2,7 @@ package com.theo.crossfit.interfaces.application;
 
 import com.google.common.collect.Lists;
 import com.theo.crossfit.core.domain.workout.WorkoutService;
-import com.theo.crossfit.interfaces.controller.workout.WorkoutDto;
+import com.theo.crossfit.interfaces.controller.workout.dto.WorkoutDto;
 
 import org.springframework.stereotype.Service;
 

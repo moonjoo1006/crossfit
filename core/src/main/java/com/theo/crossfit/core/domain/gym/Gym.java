@@ -13,7 +13,7 @@ import java.util.List;
 @Document(collection ="gym")
 public class Gym implements SequenceGenerator {
     @Id
-    public String id;
+    public Long id;
 
     public String name;
 

@@ -3,9 +3,9 @@ Content-Type: application/json
 
 {
   "id": 1,
-  "gymId": 10,
+  "gymId": 1,
   "workout": "10R\n데드리프트 10개\n스쿼트 10개\n턱걸이 10개",
-  "workoutDate": "2021-04-03T12:00:00",
+  "workoutDate": "2021-04-03",
   "workoutTypes": ["DEAD_LIFT", "SQUAT", "CHIN_UP"]
 }
 

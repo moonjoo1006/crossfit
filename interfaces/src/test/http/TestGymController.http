@@ -1,0 +1,10 @@
+POST localhost:8080/test/gym/save
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "크로스핏분당",
+  "address": "경기도 성남시 분당구 서현동",
+  "ownerId": "2",
+  "managerIds": []
+}

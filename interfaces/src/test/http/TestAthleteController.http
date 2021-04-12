@@ -1,0 +1,13 @@
+POST localhost:8080/test/wod/save
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "theo",
+  "email": "moonjoo1006@gmail.com",
+  "gymId": "1",
+  "accountId": 100001,
+  "follows": [],
+  "followers": [],
+  "feeds": []
+}

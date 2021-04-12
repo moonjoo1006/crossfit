@@ -1,2 +1,4 @@
-package com.theo.crossfit.interfaces.application;public interface Application {
+package com.theo.crossfit.interfaces.application;
+
+public interface Application {
 }

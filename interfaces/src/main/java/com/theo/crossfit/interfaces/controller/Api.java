@@ -1,2 +1,4 @@
-package com.theo.crossfit.interfaces.controller;public interface Api {
+package com.theo.crossfit.interfaces.controller;
+
+public interface Api {
 }

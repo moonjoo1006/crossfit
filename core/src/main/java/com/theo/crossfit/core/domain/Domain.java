@@ -1,2 +1,4 @@
-package com.theo.crossfit.core.domain;public interface Domain {
+package com.theo.crossfit.core.domain;
+
+public interface Domain {
 }

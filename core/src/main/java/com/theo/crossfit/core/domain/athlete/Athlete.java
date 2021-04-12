@@ -14,13 +14,15 @@ import java.util.List;
 @Document(collection = "athlete")
 public class Athlete implements SequenceGenerator {
     @Id
-    private Long id;
+    private long id;
 
     private String name;
 
-    private String gymId;
+    private long gymId;
 
     private long accountId;
+
+    private String email;
 
     private List<Long> follows;
 
