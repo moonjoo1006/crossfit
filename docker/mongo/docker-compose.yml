@@ -6,10 +6,12 @@ services:           # service 목록을 정의합니다.
     environment:    # 환경변수를 정의합니다.
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: admin
-    volumes:        # container -> local로 mount할 수 있습니다.
-      - type: bind
-        source: /tmp/mongo # local 경로
-        target: /data/db  # container 내부에서의 경로
+    volumes:
+    - /usr/local/crossfit:/data/db
+#    volumes:        # container -> local로 mount할 수 있습니다.
+#      - type: bind
+#        source: /usr/local/crossfit # local 경로
+#        target: /data/db  # container 내부에서의 경로
     container_name: "mongodb" # container의 name을 정의합니다.
     ports:                # service port를 정의합니다.
       - "27017:27017"     # local:container

@@ -1,0 +1,13 @@
+POST localhost:8080/test/wod/save
+Content-Type: application/json
+
+{
+  "id": 1,
+  "gymId": 10,
+  "workout": "10R\n데드리프트 10개\n스쿼트 10개\n턱걸이 10개",
+  "workoutDate": "2021-04-03T12:00:00",
+  "workoutTypes": ["DEAD_LIFT", "SQUAT", "CHIN_UP"]
+}
+
+###
+GET localhost:8080/test/wods/1
